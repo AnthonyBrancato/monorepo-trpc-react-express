@@ -1,0 +1,20 @@
+0 silly argv {
+0 silly argv   _: [ 'run' ],
+0 silly argv   lernaVersion: '7.1.1',
+0 silly argv   '$0': '..\\..\\AppData\\Local\\npm-cache\\_npx\\d5cad42883f80c04\\node_modules\\lerna\\dist\\cli.js',
+0 silly argv   script: 'dev'
+0 silly argv }
+1 notice cli v7.1.1
+2 verbose packageConfigs Explicit "packages" configuration found in lerna.json. Resolving packages using the configured glob(s): ["packages/api/*","packages/client/*","packages/types/*"]
+3 verbose rootPath C:\Users\coffe\workspaces\monorepo-react-trpc-api
+4 error TypeError [ERR_INVALID_ARG_TYPE]: Failed to process the project graph with "nx-js-graph-plugin".
+4 error The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received undefined
+4 error     at writeFileSync (node:fs:2239:5)
+4 error     at writeLastProcessedLockfileHash (C:\Users\coffe\AppData\Local\npm-cache\_npx\d5cad42883f80c04\node_modules\nx\src\plugins\js\index.js:49:28)
+4 error     at C:\Users\coffe\AppData\Local\npm-cache\_npx\d5cad42883f80c04\node_modules\nx\src\plugins\js\index.js:25:17
+4 error     at Generator.next (<anonymous>)
+4 error     at C:\Users\coffe\AppData\Local\npm-cache\_npx\d5cad42883f80c04\node_modules\tslib\tslib.js:169:75
+4 error     at new Promise (<anonymous>)
+4 error     at Object.__awaiter (C:\Users\coffe\AppData\Local\npm-cache\_npx\d5cad42883f80c04\node_modules\tslib\tslib.js:165:16)
+4 error     at Object.processProjectGraph (C:\Users\coffe\AppData\Local\npm-cache\_npx\d5cad42883f80c04\node_modules\nx\src\plugins\js\index.js:15:57)
+4 error     at C:\Users\coffe\AppData\Local\npm-cache\_npx\d5cad42883f80c04\node_modules\nx\src\project-graph\build-project-graph.js:121:38
